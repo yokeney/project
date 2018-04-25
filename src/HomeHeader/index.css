@@ -39,7 +39,6 @@
 .fadeIn-enter {
   opacity: 0.01;
 }
-
 .fadeIn-enter.fadeIn-enter-active {
   opacity: 1;
   transition: opacity 500ms ease-in;
