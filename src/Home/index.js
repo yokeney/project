@@ -4,12 +4,18 @@ import {connect} from 'react-redux'
 import * as action from '../redux/action/home'
  class Home extends Component{
      chooseLesson=(type)=>{
-         console.log(type);
+         console.log(this.props);
          this.props.setCurrentLesson(type);
+
      };
  	render(){
  		return (
- 			<HomeHeader chooseLesson={this.chooseLesson}/>
+ 			<div>
+                <HomeHeader chooseLesson={this.chooseLesson}/>
+                <div className="content">
+                {this.props.home.currentLesson}
+                </div>
+            </div>
  		)
  	}
  }

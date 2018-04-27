@@ -54,3 +54,9 @@
   opacity: 0.01;
   transition: opacity 300ms ease-in;
 }
+.content{
+	position: fixed;
+	overflow: scroll;
+	top: 56px;
+	bottom: 54px;
+}
