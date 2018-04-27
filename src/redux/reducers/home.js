@@ -1,7 +1,8 @@
 //home里放首页所有信息
 import  * as Types from '../action-types'
 let initState={
-	currentLesson:0
+	currentLesson:0,
+	silders:[]
 }
 export default function(state=initState ,action){
 	if (action===undefined) return state;

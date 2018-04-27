@@ -6,3 +6,10 @@ export const setCurrentLesson=(val)=>{
 		val
 	}
 }
+//如果使用reduxTunk action Createator可以返回一个函数，函数中有dispatch参数
+// export const getsilder=()=>=(dispatch)=>{
+// 	getsilder().then(slider=>{
+// 		type:Types.GET_SLIDERS,
+// 		slider
+// 	})
+// }
