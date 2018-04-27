@@ -6,15 +6,15 @@ import '../common/footer.css'
  		return (
  				<nav className="footer">
 					<NavLink to={'/'} activeClassName="selected" exact>
-					<i className="iconfont icon-sousuokuang"></i>
+						<i className="iconfont icon-sousuokuang"></i>
 						<span>首页</span>
 					</NavLink>
 					<NavLink to={'/Lesson'} activeClassName="selected">
-					<i className="iconfont icon-pen"></i>
+						<i className="iconfont icon-pen"></i>
 						<span>课程</span>
 					</NavLink>
-					<NavLink to={'/Profile'}activeClassName="selected">
-					<i className="iconfont icon-Santa"></i>
+					<NavLink to={'/Profile'} activeClassName="selected">
+						<i className="iconfont icon-Santa"></i>
 						<span>个人信息 </span>
 					</NavLink>
 				</nav>

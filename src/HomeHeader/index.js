@@ -12,6 +12,11 @@ import logo from '../images/logo.png'
 			 isshow:!this.state.isshow
 		 })
 	 }
+     choose=(e)=>{
+        this.props.chooseLesson(e.target.getAttribute('type'));
+        this.toggle();
+
+     }
  	render(){
  		return (
 			<div className="home-header">
@@ -27,7 +32,7 @@ import logo from '../images/logo.png'
 				{
 					this.state.isshow?
 					<CSSTransition timeout={1000} classNames="fadeIn">
-						<ul className="menu-list">
+						<ul className="menu-list" onClick={this.choose}>
 							<li type="1">Nodejs</li>
 							<li type="2">HTML</li>
 							<li type="3">PHP</li>

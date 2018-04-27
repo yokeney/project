@@ -6,7 +6,9 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
-;
+}
+.header-menu div{
+	align-self: center;
 }
 .home-header{
 	display: flex;
